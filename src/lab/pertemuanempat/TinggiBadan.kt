@@ -11,5 +11,5 @@ fun main() {
     //menampilkan tinggi badan tertinggi
     println("Tinggi badan terendah : " + tinggi.min() )
 
-    tinggi.
+    print(tinggi)
 }
