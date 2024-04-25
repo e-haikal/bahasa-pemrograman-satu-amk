@@ -17,12 +17,17 @@ fun main() {
     print("Masukkan Tinggi Segitiga = ")
     val tinggi = readLine()!!.toInt()
 
-    println("\nBerhasil....")
+    println("Berhasil....")
     println("Luas segitiga : " + segitigaMod(alas, tinggi))
+    println("------------------------------------------------")
 
     //luas persegi
     //input nilai sisi
-
+    print("\nMasukkan nilai sisi = ")
     val sisi = readLine()!!.toInt()
-    persegiMod(4)
+
+    println("Berhasil")
+    persegiMod(sisi)
+    println("------------------------------------------------")
+
 }
